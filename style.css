@@ -1,4 +1,4 @@
 body{
-   h1 { text-align: center }
+   h1 { color:white; text-align: center; }
    background-image: url("assets/background.jpg");
 }
