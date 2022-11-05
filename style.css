@@ -2,10 +2,15 @@ body{
    color:white; 
    background-image: url("assets/background.jpg");
 }
+p{
+   text-align: center; 
+   font-size: 80px;
+}
 h1 { 
    color:white; 
    text-align: center; 
    font-family:Castellar;
+   font-size: 20px;
 }
 .dropdown {
   position: relative;
