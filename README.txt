@@ -1,3 +1,3 @@
 Piece of Space: 
-https://nadiachoudhury.github.io/pieceofspace.github.io/
+https://nadiachoudhury.github.io/spacetravel.github.io/
 pieceofspace.tech
