@@ -15,7 +15,9 @@ p{
   position: relative;
   display: inline-block;
 }
-
+#piece1, #piece2{
+   display:inline-block;
+} 
 .dropdown-content {
   display: none;
   position: absolute;
