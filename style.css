@@ -12,6 +12,9 @@ p{
    font-family:Castellar;
    font-size: 80px;
 }
+#itembuttons{
+   text-align: center;
+}
 #piece1, #piece2{
    display:inline-block;
    margin-right:20px;  
