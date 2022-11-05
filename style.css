@@ -1,9 +1,13 @@
+body{
+   background-image: url("assets/background.jpg");
+}
+
 h1 { 
    color:white; 
    text-align: center; 
    font-family:Castellar;
-   font-size: 100px
 }
-body{
-   background-image: url("assets/background.jpg");
+
+p {
+   color: white;
 }
