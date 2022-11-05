@@ -12,3 +12,7 @@ p{
    font-family:Castellar;
    font-size: 80px;
 }
+#piece1, #piece2{
+   display:inline-block;
+   margin-right:5px;  
+} 
