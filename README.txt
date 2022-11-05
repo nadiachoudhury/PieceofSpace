@@ -1,1 +1,3 @@
-Piece of Space: pieceofspace.tech
+Piece of Space: 
+https://nadiachoudhury.github.io/pieceofspace/
+pieceofspace.tech
