@@ -4,12 +4,12 @@ body{
 }
 p{
    text-align: center; 
-   font-size: 80px;
+   font-size: 20px;
 }
 #title { 
    text-align: center; 
    font-family:Castellar;
-   font-size: 20px;
+   font-size: 80px;
 }
 .dropdown {
   position: relative;
