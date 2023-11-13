@@ -3,7 +3,7 @@ body {
     font-family: 'Major Mono Display', monospace; 
     color: #FFFFFF;
     background-color: #000000; /* Space black */
-    background-image: url('assets/background.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
