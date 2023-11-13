@@ -1,27 +1,53 @@
-body{
-   background-image: url("assets/background.jpg");
+/* General Body Style */
+body {
+    font-family: 'Major Mono Display', monospace; 
+    color: #FFFFFF;
+    background-color: #000000; /* Space black */
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center; /* Center aligns all text */
 }
-p{
-   color:white; 
-   text-align: center; 
-   font-size: 20px;
-}
-#title { 
-   color:white; 
-   text-align: center; 
-   font-family:Castellar;
-   font-size: 80px;
-}
-#itembuttons{
-   text-align: center;
-}
-#piece1, #piece2{
-   display:inline-block;
-   margin-right:20px;
-   width:150px; 
-} 
 
-#origin_bttn{
-    padding: 25px 50px 75px 100px;
-    postion: relatve;
+h1 {
+    color: #DDDDDD; /* Light gray for heading */
+    margin-bottom: 50px;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+/* Styling for Dropdowns and Button */
+select, button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #333333; /* Dark gray */
+    color: #FFFFFF; /* White text */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555; /* Slightly lighter gray for hover effect */
+}
+
+/* Result Display with Border */
+#result {
+    border: 2px solid #DDDDDD; /* Light gray border */
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    display: inline-block; /* Adjusts the border to wrap the text */
+    border-radius: 5px; /* Optional: rounded corners for the border */
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    select, button {
+        width: 80%;
+    }
 }
